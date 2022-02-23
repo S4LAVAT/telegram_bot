@@ -34,14 +34,7 @@ def start(message):
 def show_weather(message):
 	try:
 		weather, degrees = get_weather(message.text)
-		bot.send_message(message.chat.id,'weather in '+ message.text + ':' + weather + ' degrees ' + str(degrees))
+		bot.send_message(message.chat.id,'Погда в городе: '+ message.text + ' : ' + weather + str(degrees)+'  градусов ')
 	except TypeError:
 		bot.send_message(message.chat.id, ' город введен неправильно попробуй снова')
 bot.polling()
- 
-
-
-
-
-
-
