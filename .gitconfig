@@ -1,3 +1,5 @@
 [user]
 	email = ibooster197@gmail.com
 	name = S4LAVAT
+[credential]
+	useHttpPath = true

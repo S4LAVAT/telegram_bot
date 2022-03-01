@@ -12,4 +12,22 @@ r1 = Rectangel(10, 20)
 r2 = Rectangel(10, 200)
 r1.area()
 r2.area()
-print(f"{r1.width}, {r2.height}")		
+print(f"{r1.width}, {r2.height}")
+
+
+
+
+
+
+
+
+class X:
+	div def __init__(self, arg):
+	    self.arg = arg
+
+obj1 = X(10)
+print(obj1)
+
+
+obj2 = X(2)	
+print(obj2)
